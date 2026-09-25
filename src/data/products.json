@@ -1,25 +1,25 @@
 [
   {
     "id": "prod-1",
-    "name": "Amul Taaza Fresh Toned Milk",
+    "name": "Amul Gold Full Cream Fresh Milk",
     "brand": "Amul",
     "category": "Dairy & Breakfast",
-    "description": "Fresh and pasteurized toned milk with balanced cream content, ideal for daily tea, coffee, and cereal.",
-    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=600&auto=format&fit=crop&q=80",
+    "description": "Fresh pasteurized full cream milk with rich balanced cream content, ideal for daily tea, coffee, and sweets.",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/1c44f728-7e7e-4f59-9248-5569a3b36672/Amul-Gold-Full-Cream-Fresh-Milk-Pouch.jpeg",
     "featured": true,
     "rating": 4.9,
     "variants": [
-      { "id": "v-1a", "label": "500 ml", "price": 27, "mrp": 28 },
-      { "id": "v-1b", "label": "1 Litre", "price": 54, "mrp": 56 }
+      { "id": "v-1a", "label": "500 ml", "price": 33, "mrp": 34 },
+      { "id": "v-1b", "label": "1 Litre", "price": 66, "mrp": 68 }
     ]
   },
   {
     "id": "prod-2",
-    "name": "Fortune Sunlite Refined Sunflower Oil",
+    "name": "Fortune Refined Sunflower Oil",
     "brand": "Fortune",
     "category": "Atta, Rice & Dals",
     "description": "Light, healthy, and enriched with Vitamin A & D for everyday Gujarati cooking and deep frying.",
-    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-2000-2000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/9cbaade6-966d-48df-bc70-5b835150c208/Fortune-Refined-Sunflower-Oil-Pouch.jpeg",
     "featured": true,
     "rating": 4.8,
     "variants": [
@@ -29,11 +29,11 @@
   },
   {
     "id": "prod-3",
-    "name": "India Gate Basmati Rice Rozzana",
+    "name": "India Gate Feast Rozzana Basmati Rice",
     "brand": "India Gate",
     "category": "Atta, Rice & Dals",
-    "description": "Premium aromatic long grains for your daily pulao, biryani, and khichdi.",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&auto=format&fit=crop&q=80",
+    "description": "Aged aromatic long grains for fluffy, non-sticky everyday pulao, biryani, and khichdi.",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1746-1746,pr-true,f-auto,q-40,dpr-2/cms/product_variant/960b1916-ea59-4fea-a60f-81d783f10d00/India-Gate-All-Rounder-Feast-Rozzana-Basmati-Rice-Aged-Rice-Fluffy-and-Non-Sticky.jpg",
     "featured": true,
     "rating": 4.7,
     "variants": [
@@ -43,11 +43,11 @@
   },
   {
     "id": "prod-4",
-    "name": "Haldiram's Nagpur Aloo Bhujia",
+    "name": "Haldiram's Aloo Bhujia Sev",
     "brand": "Haldiram's",
     "category": "Snacks & Munchies",
-    "description": "Crispy and spicy potato savoury snack noodles, perfect companion for evening tea.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?w=600&auto=format&fit=crop&q=80",
+    "description": "Crunchy and spicy potato savoury snack noodles, perfect companion for evening tea.",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/ed01b616-3361-467d-bcbf-8f35b3ebfd3c/Haldiram-s-Aloo-Bhujia-Sev-Crunchy-Savory-Snack.jpeg",
     "featured": true,
     "rating": 4.9,
     "variants": [
@@ -60,8 +60,8 @@
     "name": "Wagh Bakri Premium Leaf Tea",
     "brand": "Wagh Bakri",
     "category": "Tea, Coffee & Drinks",
-    "description": "Strong taste, rich colour, and unmatched aroma loved across households in Ahmedabad.",
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop&q=80",
+    "description": "Strong taste, rich colour, and unmatched kadak aroma loved across households in Ahmedabad.",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/9916ba82-dd46-4749-8056-3f9e6f3f4914/Wagh-Bakri-Premium-Leaf-Tea-Kadak-Rich-Taste.jpeg",
     "featured": true,
     "rating": 4.9,
     "variants": [
@@ -71,11 +71,11 @@
   },
   {
     "id": "prod-6",
-    "name": "Tata Salt Vacuum Evaporated Iodized",
+    "name": "Tata Salt Free-Flowing Iodized Namak",
     "brand": "Tata",
     "category": "Atta, Rice & Dals",
     "description": "Desh ka Namak, pure vacuum evaporated iodized salt essential for balanced iodine intake.",
-    "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/1c70221b-4440-4d55-87e7-46fcce72fefd/Tata-Salt-Free-Flowing-and-Iodized-Namak-Vacuum-Evaporated-Salt-in-Fresh.jpeg",
     "featured": false,
     "rating": 4.9,
     "variants": [
@@ -98,11 +98,11 @@
   },
   {
     "id": "prod-8",
-    "name": "Surf Excel Matic Front Load Liquid Detergent",
+    "name": "Surf Excel Matic Liquid Detergent",
     "brand": "Surf Excel",
     "category": "Cleaning & Household",
     "description": "Powerful stain removal in 1 wash inside the machine without leaving any powdery residue.",
-    "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/ca69699c-a790-4450-a572-79851df476f8/Surf-Excel-Matic-Liquid-Detergent-for-Top-Load.jpg",
     "featured": false,
     "rating": 4.7,
     "variants": [
@@ -140,11 +140,11 @@
   },
   {
     "id": "prod-11",
-    "name": "Aashirvaad Superior MP Sharbati Atta",
-    "brand": "Aashirvaad",
+    "name": "Fortune Chakki Fresh Whole Wheat Atta",
+    "brand": "Fortune",
     "category": "Atta, Rice & Dals",
-    "description": "100% whole wheat chakki atta from grains of Madhya Pradesh for soft and fluffy rotis.",
-    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+    "description": "100% whole wheat chakki atta from high-quality grains for soft, fluffy, and nutritious rotis.",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1960-1960,pr-true,f-auto,q-40,dpr-2/cms/product_variant/4a246a4b-c574-4f4f-8b96-4996dbba29d6/Fortune-Chakki-Fresh-Atta.jpeg",
     "featured": true,
     "rating": 4.8,
     "variants": [
@@ -154,7 +154,7 @@
   },
   {
     "id": "prod-12",
-    "name": "Amul Masti Spiced Dahi Buttermilk / Curd",
+    "name": "Amul Masti Spiced Dahi / Curd",
     "brand": "Amul",
     "category": "Dairy & Breakfast",
     "description": "Thick, creamy curd made from wholesome milk, naturally set for daily meal accompaniment.",

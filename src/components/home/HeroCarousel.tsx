@@ -34,8 +34,8 @@ const slides: Slide[] = [
     link: "/products?category=Atta%2C+Rice+%26+Dals",
     bgGradient: "from-rose-50 via-red-50/40 to-green-50/30 border-rose-100",
     accentColor: "bg-[#E11D48] hover:bg-[#BE123C]",
-    productImg: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
-    productName: "Aashirvaad Sharbati Atta",
+    productImg: "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1960-1960,pr-true,f-auto,q-40,dpr-2/cms/product_variant/4a246a4b-c574-4f4f-8b96-4996dbba29d6/Fortune-Chakki-Fresh-Atta.jpeg",
+    productName: "Fortune Chakki Fresh Atta",
   },
   {
     id: "slide-2",
@@ -49,7 +49,7 @@ const slides: Slide[] = [
     link: "/products?category=Dairy+%26+Breakfast",
     bgGradient: "from-green-50 via-emerald-50/50 to-white border-green-100",
     accentColor: "bg-[#16A34A] hover:bg-[#15803D]",
-    productImg: "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=600&auto=format&fit=crop&q=80",
+    productImg: "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/1c44f728-7e7e-4f59-9248-5569a3b36672/Amul-Gold-Full-Cream-Fresh-Milk-Pouch.jpeg",
     productName: "Amul Fresh Milk",
   },
   {
@@ -64,7 +64,7 @@ const slides: Slide[] = [
     link: "/products?category=Snacks+%26+Munchies",
     bgGradient: "from-amber-50 via-orange-50/30 to-rose-50/40 border-amber-100",
     accentColor: "bg-[#E11D48] hover:bg-[#BE123C]",
-    productImg: "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?w=600&auto=format&fit=crop&q=80",
+    productImg: "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/ed01b616-3361-467d-bcbf-8f35b3ebfd3c/Haldiram-s-Aloo-Bhujia-Sev-Crunchy-Savory-Snack.jpeg",
     productName: "Haldiram Bhujia",
   },
 ];
