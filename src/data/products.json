@@ -88,7 +88,7 @@
     "brand": "Nestle",
     "category": "Snacks & Munchies",
     "description": "Classic instant masala noodles fortified with iron for a quick and satisfying snack.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/708a0c0a-fb68-4e19-8c9a-4a085f8ecca5/MAGGI-2-Minute-Instant-Noodles-Masala-Noodles-Made-With-Quality-Spices.jpg",
     "featured": false,
     "rating": 4.8,
     "variants": [
@@ -98,11 +98,11 @@
   },
   {
     "id": "prod-8",
-    "name": "Surf Excel Matic Liquid Detergent",
+    "name": "Surf Excel Matic Front Load Liquid Detergent",
     "brand": "Surf Excel",
     "category": "Cleaning & Household",
     "description": "Powerful stain removal in 1 wash inside the machine without leaving any powdery residue.",
-    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/ca69699c-a790-4450-a572-79851df476f8/Surf-Excel-Matic-Liquid-Detergent-for-Top-Load.jpg",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/deace3cc-d72c-4214-9d16-ebaa7911e3f3/Surf-Excel-Matic-Liquid-Detergent-for-Front-Load-Removes-tough-Stains-in-1st-wash.jpg",
     "featured": false,
     "rating": 4.7,
     "variants": [
@@ -116,7 +116,7 @@
     "brand": "Dettol",
     "category": "Personal Care",
     "description": "Trusted antiseptic protection soap bar keeping your family fresh and germ-free daily.",
-    "image": "https://images.unsplash.com/photo-1607006314187-542158869c9b?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1000-1000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/469ef3b7-646f-46bb-919d-92933232bc8a/Dettol-Original-Bathing-Soap-Bar-with-12hr-Protective-Shield.jpeg",
     "featured": false,
     "rating": 4.7,
     "variants": [
@@ -130,7 +130,7 @@
     "brand": "Britannia",
     "category": "Snacks & Munchies",
     "description": "Rich butter taste with iconic cookie smiles, baked to crisp perfection.",
-    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1000-1000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/ff66918e-2607-49d9-a074-54d90a337581/Britannia-Good-Day-Butter-Cookies-Trans-Fat-free.png",
     "featured": false,
     "rating": 4.6,
     "variants": [
@@ -154,11 +154,11 @@
   },
   {
     "id": "prod-12",
-    "name": "Amul Masti Spiced Dahi / Curd",
+    "name": "Amul Masti Spiced Dahi Buttermilk / Curd",
     "brand": "Amul",
     "category": "Dairy & Breakfast",
     "description": "Thick, creamy curd made from wholesome milk, naturally set for daily meal accompaniment.",
-    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=600&auto=format&fit=crop&q=80",
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-3000-3000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/51054bce-49ac-493d-b0b3-66909bd80840/Amul-Masti-Curd-Pouch.jpeg",
     "featured": false,
     "rating": 4.8,
     "variants": [
