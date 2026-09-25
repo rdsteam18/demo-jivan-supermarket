@@ -7,6 +7,32 @@
   "city": "Ahmedabad, Gujarat 382449",
   "phone": "+91 98765 43210",
   "openingHours": "7:00 AM - 10:00 PM (Everyday)",
-  "storeImage": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1000&auto=format&fit=crop&q=80",
-  "insideImage": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1000&auto=format&fit=crop&q=80"
+  "storeImage": "https://lh3.googleusercontent.com/grass-cs/ACvplmOGH4fZZXFLmx2re5YTMXr3n3oc_Zca5Gb1pNp1b7q8l2zMret4wExQhI8fHjPtW9PiHCYGAR3OX86TPsejOptBcJAEqF-8LpM-7RGlLFroTkyMVCcOJmQVxZ8i696xWPOTTx5tqk8FgD3W=s680-w680-h510-rw",
+  "insideImage": "https://lh3.googleusercontent.com/grass-cs/ACvplmOJlgP3YZo9Sm8KRdritVWYdm9ELqW05pnxxKi8i9kvqBWBSF2yyrWi4U9a1jZ2dABgZvkU2_hDNEevJmgtA8dkDzsWiH18pH4IJIz2n3ZLYlI9WTF1DyQV8tCZFsZKTgmnBhZH=s680-w680-h510-rw",
+  "galleryImages": [
+    {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOGH4fZZXFLmx2re5YTMXr3n3oc_Zca5Gb1pNp1b7q8l2zMret4wExQhI8fHjPtW9PiHCYGAR3OX86TPsejOptBcJAEqF-8LpM-7RGlLFroTkyMVCcOJmQVxZ8i696xWPOTTx5tqk8FgD3W=s680-w680-h510-rw",
+      "caption": "Store Entrance & Main Board"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOJlgP3YZo9Sm8KRdritVWYdm9ELqW05pnxxKi8i9kvqBWBSF2yyrWi4U9a1jZ2dABgZvkU2_hDNEevJmgtA8dkDzsWiH18pH4IJIz2n3ZLYlI9WTF1DyQV8tCZFsZKTgmnBhZH=s680-w680-h510-rw",
+      "caption": "Grocery & Daily Essentials Aisles"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNjP5rUOZplG3H8IhPnMZRaoNJvNUpa5TnKyD2S8z7QXVumg3uNWW0HwHpL9M_Hv55LDTxXpFqSYhCR-S0K5bkBzIvNtug0QRE4ygisgEz8u25uKklQM-0MOfJoc7BZ3KCaftgS=s680-w680-h510-rw",
+      "caption": "Well-Stocked Packaged Foods"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPJ95g_b0eqxpey6ebeBxAE0J90RalDujAGuuklgnh2iNTX9c2l3k6-_YkNfXEAK4OkS3c2yCG7xXU0ZGas3lZDy3_TVj-RvhDuHGHyCklrLehTnquuvkAHIiX-akkzA7in6VeGbQ=s680-w680-h510-rw",
+      "caption": "Billing Counter & Fresh Racks"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlrRHahQRcp0MTvkeFUw_Eia-o_yErLkdif6TF37w4b2W8CF8HEFpUfWpffbpyjyW9lkfz5bjYDmrV7ZRVvx51HqTaUWvi3KLindstp7tGwUMu0yWKuqRckAbRzDV85qGNV=s680-w680-h510-rw",
+      "caption": "Supermarket Floor View"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkjrWs4Lc1daQkzJJdpChvIrRpTpF7xdEJsjuAZcypyaESL4AJQ9h7U4yjyW0t2jc1xpxNFPImw9pqDWpchy-uh-YWRDfds8f548JrnYoOGhp75tfngF99rlL6hFsyRJiSrhYqK=s680-w680-h510-rw",
+      "caption": "Beverages & Chilled Section"
+    }
+  ]
 }
