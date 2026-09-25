@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Phone, Clock, ShieldCheck, Heart } from "lucide-react";
+import { MapPin, Phone, Clock, ShieldCheck } from "lucide-react";
 import shopData from "@/data/shop.json";
 
 export default function Footer() {

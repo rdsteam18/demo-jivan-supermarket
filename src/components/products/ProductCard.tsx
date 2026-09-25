@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Plus, Minus, Star, Heart, Zap } from "lucide-react";
 import { Product } from "@/types";
 import { useCartStore } from "@/store/cartStore";
@@ -54,14 +55,17 @@ export default function ProductCard({ product }: { product: Product }) {
         </button>
       </div>
 
-      {/* Product Image Area with Delivery ETA Badge */}
-      <div className="relative w-full aspect-square rounded-lg bg-[#FAFAFA] p-2 mb-2 flex items-center justify-center overflow-hidden border border-gray-100">
+      {/* Product Image Area with Delivery ETA Badge - Clickable to Detail Page */}
+      <Link
+        href={`/products/${product.id}`}
+        className="block relative w-full aspect-square rounded-lg bg-[#FAFAFA] p-2 mb-2 overflow-hidden border border-gray-100 group/img"
+      >
         <Image
           src={product.image}
           alt={product.name}
           fill
           sizes="(max-width: 640px) 45vw, (max-width: 1024px) 25vw, 20vw"
-          className="object-contain p-1.5 group-hover:scale-105 transition-transform duration-300"
+          className="object-contain p-1.5 group-hover/img:scale-105 transition-transform duration-300"
         />
 
         {/* Micro Delivery ETA Tag (Blinkit style) */}
@@ -69,7 +73,7 @@ export default function ProductCard({ product }: { product: Product }) {
           <Zap className="w-2.5 h-2.5 text-[#16A34A] fill-[#16A34A]" />
           <span>12 MINS</span>
         </div>
-      </div>
+      </Link>
 
       {/* Brand & Rating Meta */}
       <div className="flex items-center justify-between text-[10px] text-gray-500 mb-0.5">
@@ -82,10 +86,12 @@ export default function ProductCard({ product }: { product: Product }) {
         </span>
       </div>
 
-      {/* Product Title (2-line clamp) */}
-      <h3 className="text-xs sm:text-[13px] font-bold text-[#1A1A1A] line-clamp-2 min-h-[2.1rem] leading-snug mb-1.5">
-        {product.name}
-      </h3>
+      {/* Product Title (2-line clamp) - Clickable to Detail Page */}
+      <Link href={`/products/${product.id}`} className="block group/title">
+        <h3 className="text-xs sm:text-[13px] font-bold text-[#1A1A1A] group-hover/title:text-[#16A34A] line-clamp-2 min-h-[2.1rem] leading-snug mb-1.5 transition-colors">
+          {product.name}
+        </h3>
+      </Link>
 
       {/* Segmented Variant Mini-Pills */}
       <div className="flex flex-wrap gap-1 mb-2">

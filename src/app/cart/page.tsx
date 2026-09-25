@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import confetti from "canvas-confetti";
@@ -25,9 +25,10 @@ import {
 } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import shopData from "@/data/shop.json";
+import { useIsMounted } from "@/hooks/useIsMounted";
 
 export default function CartPage() {
-  const [isMounted, setIsMounted] = useState(false);
+  const isMounted = useIsMounted();
   const [selectedPayment, setSelectedPayment] = useState<"upi" | "cod">("upi");
   const [isPlacingOrder, setIsPlacingOrder] = useState(false);
   const [orderPlaced, setOrderPlaced] = useState(false);
@@ -42,10 +43,6 @@ export default function CartPage() {
   const discount = useCartStore((state) => state.discount());
   const deliveryFee = useCartStore((state) => state.deliveryFee());
   const total = useCartStore((state) => state.total());
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
 
   // Multi-Stage Firecrackers & Cracker Burst Animation
   const fireCrackersAnimation = () => {
@@ -302,7 +299,10 @@ export default function CartPage() {
               className="bg-white rounded-xl border border-gray-200 p-3 sm:p-3.5 flex items-center gap-3 sm:gap-4 hover:shadow-xs transition"
             >
               {/* Product Thumbnail */}
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 bg-[#FAFAFA] rounded-lg overflow-hidden flex-shrink-0 border border-gray-100 p-1">
+              <Link
+                href={`/products/${item.productId}`}
+                className="relative w-16 h-16 sm:w-20 sm:h-20 bg-[#FAFAFA] rounded-lg overflow-hidden flex-shrink-0 border border-gray-100 p-1 hover:border-[#16A34A] transition"
+              >
                 <Image
                   src={item.product.image}
                   alt={item.product.name}
@@ -310,16 +310,21 @@ export default function CartPage() {
                   sizes="80px"
                   className="object-contain"
                 />
-              </div>
+              </Link>
 
               {/* Title & Details */}
               <div className="flex-1 min-w-0">
                 <span className="text-[10px] text-gray-400 font-bold block uppercase tracking-wider">
                   {item.product.brand}
                 </span>
-                <h3 className="text-xs sm:text-sm font-bold text-[#1A1A1A] truncate">
-                  {item.product.name}
-                </h3>
+                <Link
+                  href={`/products/${item.productId}`}
+                  className="hover:text-[#16A34A] transition"
+                >
+                  <h3 className="text-xs sm:text-sm font-bold text-[#1A1A1A] truncate hover:text-[#16A34A]">
+                    {item.product.name}
+                  </h3>
+                </Link>
                 <span className="inline-block bg-gray-100 text-gray-700 text-[10px] font-semibold px-2 py-0.5 rounded-md mt-1">
                   {item.variant.label}
                 </span>

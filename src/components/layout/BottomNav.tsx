@@ -4,16 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Home, Grid, ShoppingBag, User } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
-import { useEffect, useState } from "react";
+import { useIsMounted } from "@/hooks/useIsMounted";
 
 export default function BottomNav() {
   const pathname = usePathname();
-  const [mounted, setMounted] = useState(false);
+  const mounted = useIsMounted();
   const totalItems = useCartStore((state) => state.totalItems());
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   const navItems = [
     { label: "Home", href: "/", icon: Home },

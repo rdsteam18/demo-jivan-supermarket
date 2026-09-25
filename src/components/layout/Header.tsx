@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { Search, ShoppingBag, MapPin, ChevronDown, Mic, Zap, User } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import shopData from "@/data/shop.json";
+import { useIsMounted } from "@/hooks/useIsMounted";
 
 const searchPlaceholders = [
   "Search 'Amul Taaza Milk'...",
@@ -19,14 +20,13 @@ const searchPlaceholders = [
 export default function Header() {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
-  const [mounted, setMounted] = useState(false);
+  const mounted = useIsMounted();
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
   const totalItems = useCartStore((state) => state.totalItems());
   const grandTotal = useCartStore((state) => state.total());
 
   useEffect(() => {
-    setMounted(true);
     const interval = setInterval(() => {
       setPlaceholderIndex((prev) => (prev + 1) % searchPlaceholders.length);
     }, 2800);

@@ -1,18 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { ShoppingBag, ArrowRight, Zap } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
+import { useIsMounted } from "@/hooks/useIsMounted";
 
 export default function FloatingCart() {
-  const [mounted, setMounted] = useState(false);
+  const mounted = useIsMounted();
   const totalItems = useCartStore((state) => state.totalItems());
   const grandTotal = useCartStore((state) => state.total());
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   if (!mounted || totalItems === 0) return null;
 

@@ -181,7 +181,7 @@ function ProductsContent() {
             No matching products found
           </h3>
           <p className="text-xs text-gray-500 leading-relaxed">
-            We couldn't find items matching your query. Try searching for milk, atta, oil, tea, or reset your filters.
+            We couldn&apos;t find items matching your query. Try searching for milk, atta, oil, tea, or reset your filters.
           </p>
           <button
             onClick={resetFilters}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Flame, Sparkles, Zap } from "lucide-react";
+import { ArrowRight, Flame, Zap } from "lucide-react";
 import HeroCarousel from "@/components/home/HeroCarousel";
 import TrustBar from "@/components/home/TrustBar";
 import CategoriesSection from "@/components/home/CategoriesSection";
@@ -25,7 +25,6 @@ export default function HomePage() {
     <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6 sm:space-y-8 pb-20 md:pb-8">
       {/* 1. Hero Promo Carousel */}
       <HeroCarousel />
-
       {/* 2. Micro Trust Strip */}
       <TrustBar />
 
@@ -41,7 +40,7 @@ export default function HomePage() {
                 <Flame className="w-4 h-4 fill-[#E11D48]" />
               </span>
               <h2 className="text-base sm:text-xl font-black text-[#1A1A1A] tracking-tight">
-                Today's Best Deals
+                Today&apos;s Best Deals
               </h2>
               <span className="text-[10px] sm:text-xs font-black bg-[#E11D48] text-white px-2 py-0.5 rounded-full shadow-2xs">
                 UP TO 25% OFF
