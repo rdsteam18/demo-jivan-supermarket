@@ -76,9 +76,9 @@ export default function Header() {
                   <span className="text-[10px] text-gray-500 font-semibold">
                     Online Grocery
                   </span>
-                  <span className="w-1 h-1 rounded-full bg-[#E11D48]" />
-                  <span className="text-[10px] text-[#E11D48] font-bold">
-                    Blinkit Speed
+                  <span className="w-1 h-1 rounded-full bg-[#16A34A]" />
+                  <span className="text-[10px] text-[#16A34A] font-bold">
+                    12 Mins Delivery
                   </span>
                 </div>
               </div>

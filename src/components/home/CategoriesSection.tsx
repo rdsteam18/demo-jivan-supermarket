@@ -13,7 +13,7 @@ export default function CategoriesSection() {
               Explore Categories
             </h2>
             <span className="text-[10px] font-black bg-green-100 text-[#16A34A] px-2 py-0.5 rounded-full">
-              6 Aisles
+              {categoriesData.length} Aisles
             </span>
           </div>
           <p className="text-[11px] sm:text-xs text-gray-500">
@@ -39,13 +39,13 @@ export default function CategoriesSection() {
           >
             {/* Soft-tinted card with green hover border */}
             <div className="w-[72px] h-[72px] sm:w-[88px] sm:h-[88px] rounded-xl bg-gray-50 hover:bg-white border border-gray-200 p-2 flex items-center justify-center transition-all duration-200 group-hover:border-[#16A34A] shadow-2xs group-hover:shadow-sm">
-              <div className="relative w-full h-full rounded-lg overflow-hidden">
+              <div className="relative w-full h-full rounded-lg overflow-hidden flex items-center justify-center">
                 <Image
                   src={cat.image}
                   alt={cat.name}
                   fill
                   sizes="(max-width: 640px) 72px, 88px"
-                  className="object-cover group-hover:scale-106 transition-transform duration-300"
+                  className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
             </div>

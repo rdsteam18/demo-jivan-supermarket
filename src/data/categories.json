@@ -1,32 +1,37 @@
 [
   {
+    "id": "fruits-vegetables",
+    "name": "Fruits & Vegetables",
+    "image": "https://cdn.zeptonow.com/production/cms/category/38047553-95f3-47c6-a1ff-4794e1227d3a.png?tr=f-webp,w-iw,h-iw,cm-extract,x-0,y-0"
+  },
+  {
     "id": "dairy",
     "name": "Dairy & Breakfast",
-    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=500&auto=format&fit=crop&q=80"
+    "image": "https://cdn.zeptonow.com/production/cms/category/474e6e58-1894-4378-86f1-168cc7266d1a.png?tr=f-webp,w-iw,h-iw,cm-extract,x-0,y-0"
   },
   {
     "id": "staples",
     "name": "Atta, Rice & Dals",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "snacks",
-    "name": "Snacks & Munchies",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?w=500&auto=format&fit=crop&q=80"
+    "image": "https://cdn.zeptonow.com/production/cms/category/dc4a299d-521f-4a64-8205-c5ba8e1d13e3.png?tr=f-webp,w-iw,h-iw,cm-extract,x-0,y-0"
   },
   {
     "id": "beverages",
     "name": "Tea, Coffee & Drinks",
-    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&auto=format&fit=crop&q=80"
+    "image": "https://cdn.zeptonow.com/production/cms/category/f078a8dc-a9b6-41a6-9c6f-721d4892b8ee.png?tr=f-webp,w-iw,h-iw,cm-extract,x-0,y-0"
+  },
+  {
+    "id": "snacks",
+    "name": "Snacks & Munchies",
+    "image": "https://cdn.zeptonow.com/production/cms/category/9b88fff5-73f5-46fd-999f-1622db4203d7.png?tr=f-webp,w-iw,h-iw,cm-extract,x-0,y-0"
   },
   {
     "id": "personal-care",
     "name": "Personal Care",
-    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&auto=format&fit=crop&q=80"
+    "image": "https://cdn.zeptonow.com/production/cms/category/47e96dc9-e9e5-47d1-b5b3-c967bb8f963f.png?tr=f-webp,w-iw,h-iw,cm-extract,x-0,y-0"
   },
   {
     "id": "household",
     "name": "Cleaning & Household",
-    "image": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=500&auto=format&fit=crop&q=80"
+    "image": "https://cdn.zeptonow.com/production/ik-seo/tr:w-403,ar-1200-1200,pr-true,f-auto,q-40,dpr-2/cms/product_variant/ca69699c-a790-4450-a572-79851df476f8/Surf-Excel-Matic-Liquid-Detergent-for-Top-Load.jpg"
   }
 ]
